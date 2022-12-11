@@ -6,13 +6,18 @@
       text-align: center;
       width: 45px;
       height: 45px;
-      line-height: 42px;
+      line-height: 45px;
       border: 1px solid #fe5f1e;
       border-radius: 30px;
       margin-right: 10px;
       cursor: pointer;
       display: inline-block;
       color: #fe5f1e;
+
+      & svg {
+        font-size: 1em;
+        padding-top: 5px;
+      }
 
       &:hover {
         background-color: #fe5f1e;
